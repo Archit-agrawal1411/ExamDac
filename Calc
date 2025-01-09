@@ -3,7 +3,9 @@ num=10
 num1=77
 echo "Choose an option"
 echo "1.Add"
+echo "2.Multiplication"
 read option
 case $option in
 1) echo "Add is : = $((num+num1))";;
+2) echo "Multiplication is : = $((num*num1))";;
 esac
