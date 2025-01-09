@@ -1,0 +1,9 @@
+#!/bin/bash
+num=10
+num1=77
+echo "Choose an option"
+echo "1.Add"
+read option
+case $option in
+1) echo "Add is : = $((num+num1))";;
+esac
